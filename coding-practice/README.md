@@ -1,54 +1,62 @@
 # Coding Practice Collection
 
-Java exercises are grouped in one-level folders by functionality. Source files from the
-previous project directories are consolidated here.
+These are curated exercises consolidated from the previous project folders. Each Java
+file is linked below by functionality. This collection is separate from the original
+programs in [`src/`](../src/README.md).
 
-## Java practice exercises
+## Algorithms
 
-### Algorithms
+- [BinarySearch.java](./java-practice-exercises/algorithms/BinarySearch.java) — Searches a sorted integer array for a target using binary search.
+- [Fibonacci.java](./java-practice-exercises/algorithms/Fibonacci.java) — Generates Fibonacci numbers iteratively.
+- [FibonacciRecursion.java](./java-practice-exercises/algorithms/FibonacciRecursion.java) — Generates Fibonacci numbers with recursion.
+- [MaxDiff.java](./java-practice-exercises/algorithms/MaxDiff.java) — Brute-force maximum-difference exercise; the current loop overwrites the result rather than retaining the maximum, so its result is not reliably the maximum difference.
+- [MaximumDifference.java](./java-practice-exercises/algorithms/MaximumDifference.java) — Prints array minimum/maximum and compares an overall range with a buy-before-sell style difference.
+- [RecursiveSummationDemo.java](./java-practice-exercises/algorithms/RecursiveSummationDemo.java) — Recursively adds the integers from a given input down to the base case (which returns 5 for 1).
 
-- [Fibonacci.java](./java-practice-exercises/algorithms/Fibonacci.java) — Generate Fibonacci numbers iteratively.
-- [FibonacciRecursion.java](./java-practice-exercises/algorithms/FibonacciRecursion.java) — Generate Fibonacci numbers recursively.
-- [MaxDiff.java](./java-practice-exercises/algorithms/MaxDiff.java) — Find a maximum difference in an array.
-- [BinarySearch.java](./java-practice-exercises/algorithms/BinarySearch.java) — Search a sorted array with binary search.
-- [MaximumDifference.java](./java-practice-exercises/algorithms/MaximumDifference.java) — Maximum-difference array exercise.
-- [RecursiveSummationDemo.java](./java-practice-exercises/algorithms/RecursiveSummationDemo.java) — Recursive summation exercise.
+## Data structures
 
-### Data structures and tree validation
+- [SinglyLinkedList.java](./java-practice-exercises/data_structures/SinglyLinkedList.java) — Demonstrates linked-list insertion, removal, traversal, and length counting; several operations assume a non-empty list.
+- [Solution.java](./java-practice-exercises/data_structures/Solution.java) — Attempts to add two numbers stored in linked lists by converting them to integers; the current result-list construction has logic errors and can overflow for large values.
 
-- [SinglyLinkedList.java](./java-practice-exercises/data_structures/SinglyLinkedList.java) — Insert, remove, and traverse a singly linked list.
-- [Solution.java](./java-practice-exercises/data_structures/Solution.java) — Add two numbers represented by linked lists.
-- [TreeValidator.java](./java-practice-exercises/tree_validation/TreeValidator.java) — Validate parent-child pairs as a binary tree.
-- [TreeValidatorSimple.java](./java-practice-exercises/tree_validation/TreeValidatorSimple.java) — Validate parent-child pairs using root and child-count checks.
-- [TreeValidatorAnother.java](./java-practice-exercises/tree_validation/TreeValidatorAnother.java) — Validate a tree using depth-first traversal.
+## Tree validation
 
-### Strings
+- [TreeValidator.java](./java-practice-exercises/tree_validation/TreeValidator.java) — Checks parent-child pairs for one parent per child, at most two children per parent, and one root; it does not verify connectivity or cycles.
+- [TreeValidatorSimple.java](./java-practice-exercises/tree_validation/TreeValidatorSimple.java) — A second implementation of the same parent-count and root checks, with the same cycle/connectivity limitation.
+- [TreeValidatorAnother.java](./java-practice-exercises/tree_validation/TreeValidatorAnother.java) — Validates parent counts and child limits, then uses depth-first traversal to detect cycles and disconnected nodes.
 
-- [CountNonRepeatingChars.java](./java-practice-exercises/strings/CountNonRepeatingChars.java) — Count characters that occur once.
-- [ValidPalindrome.java](./java-practice-exercises/strings/ValidPalindrome.java) — Check whether a string is a palindrome.
-- [CaseInsensitiveWordFrequencyCounter.java](./java-practice-exercises/strings/CaseInsensitiveWordFrequencyCounter.java) — Count words without regard to case.
+## Strings
 
-### Collections
+- [CountNonRepeatingChars.java](./java-practice-exercises/strings/CountNonRepeatingChars.java) — Counts characters that occur exactly once.
+- [ValidPalindrome.java](./java-practice-exercises/strings/ValidPalindrome.java) — Checks whether a string is a palindrome.
+- [CaseInsensitiveWordFrequencyCounter.java](./java-practice-exercises/strings/CaseInsensitiveWordFrequencyCounter.java) — Counts sample words after converting them to uppercase; currently stores the counts without printing or returning them.
 
-- [Employee.java](./java-practice-exercises/collections/Employee.java) — Employee model used by the examples.
-- [ComparableEmployee.java](./java-practice-exercises/collections/ComparableEmployee.java) — Employee record ordered by ID.
-- [AddressEmployee.java](./java-practice-exercises/collections/AddressEmployee.java) — Employee data class with address information.
-- [SortByMapValue.java](./java-practice-exercises/collections/SortByMapValue.java) — Sort map entries by value.
-- [Sorting.java](./java-practice-exercises/collections/Sorting.java) — Sort employee records by salary.
-- [EmployeeSalaryAndNameSortingDemo.java](./java-practice-exercises/collections/EmployeeSalaryAndNameSortingDemo.java) — Sort employee records by salary and name.
-- [EmployeeSalaryComparator.java](./java-practice-exercises/collections/EmployeeSalaryComparator.java) — Commented-out salary comparator example.
-- [StudentFilteringAndGroupingDemo.java](./java-practice-exercises/collections/StudentFilteringAndGroupingDemo.java) — Filter, sort, and group student records with streams.
-- [CandyExchangeAndEmployeeSortingDemo.java](./java-practice-exercises/collections/CandyExchangeAndEmployeeSortingDemo.java) — Candy-counting and employee-set exercise.
-- [MapValueSortingAndStringSlicingDemo.java](./java-practice-exercises/collections/MapValueSortingAndStringSlicingDemo.java) — Map sorting and string slicing examples.
+## Collections and object models
 
-### Concurrency
+- [Employee.java](./java-practice-exercises/collections/Employee.java) — Employee model with ID, name, salary, department, and value-based equality.
+- [ComparableEmployee.java](./java-practice-exercises/collections/ComparableEmployee.java) — Employee model whose natural ordering compares IDs.
+- [AddressEmployee.java](./java-practice-exercises/collections/AddressEmployee.java) — Employee model with an address list; its getter returns a shallow copy.
+- [SortByMapValue.java](./java-practice-exercises/collections/SortByMapValue.java) — Sorts employee map entries by salary descending and employee name ascending.
+- [Sorting.java](./java-practice-exercises/collections/Sorting.java) — Demonstrates sorting employees by salary; the current example list is empty.
+- [EmployeeSalaryAndNameSortingDemo.java](./java-practice-exercises/collections/EmployeeSalaryAndNameSortingDemo.java) — Creates sample employees and sorts them by salary and then name.
+- [EmployeeSalaryComparator.java](./java-practice-exercises/collections/EmployeeSalaryComparator.java) — Commented-out comparator example for sorting employees by salary descending.
+- [StudentFilteringAndGroupingDemo.java](./java-practice-exercises/collections/StudentFilteringAndGroupingDemo.java) — Filters students by marks, sorts by name, and groups the remaining students by age.
+- [CandyExchangeAndEmployeeSortingDemo.java](./java-practice-exercises/collections/CandyExchangeAndEmployeeSortingDemo.java) — Calculates a candy-wrapper exchange total and contains an employee sorting example; the employee set is empty.
+- [MapValueSortingAndStringSlicingDemo.java](./java-practice-exercises/collections/MapValueSortingAndStringSlicingDemo.java) — Shows map-entry sorting and string slicing; its sample map is empty.
 
-- [ProducerConsumerProblem.java](./java-practice-exercises/concurrency/ProducerConsumerProblem.java) — Demonstrate producer-consumer coordination with a blocking queue.
-- [Item.java](./java-practice-exercises/concurrency/Item.java) — Item model used by the producer-consumer example.
-- [ThreadsProgram.java](./java-practice-exercises/concurrency/ThreadsProgram.java) — Basic Java thread exercise (currently commented out).
+## Concurrency
 
-### Java basics and design
+- [ProducerConsumerProblem.java](./java-practice-exercises/concurrency/ProducerConsumerProblem.java) — Runs producers and consumers against a bounded blocking queue.
+- [Item.java](./java-practice-exercises/concurrency/Item.java) — Creates numbered sample items for the producer-consumer queue.
+- [ThreadsProgram.java](./java-practice-exercises/concurrency/ThreadsProgram.java) — Intended to print even and odd numbers from two threads; it currently does not compile because it catches an `InterruptedException` that is not thrown inside the `try` block.
 
-- [LearnStatic.java](./java-practice-exercises/java_basics/LearnStatic.java) — Explore Java static members.
-- [HelloWorldDemo.java](./java-practice-exercises/java_basics/HelloWorldDemo.java) — Basic Java entry-point example.
-- [VendingMachineDemo.java](./java-practice-exercises/vending_machine/VendingMachineDemo.java) — Vending-machine design exercise.
+## Java basics and design
+
+- [LearnStatic.java](./java-practice-exercises/java_basics/LearnStatic.java) — Demonstrates static method behavior and method hiding in a class hierarchy.
+- [HelloWorldDemo.java](./java-practice-exercises/java_basics/HelloWorldDemo.java) — Minimal program that prints “Hello World”.
+- [VendingMachineDemo.java](./java-practice-exercises/vending_machine/VendingMachineDemo.java) — Sketches a vending machine that selects and removes a product when the supplied money is sufficient; its product list is never initialized, so it fails at runtime.
+
+## Known gaps
+
+- `ThreadsProgram.java` is currently uncompilable as noted above.
+- `VendingMachineDemo.java` needs product inventory initialization and handling for a missing matching product.
+- Several examples are intentionally small or incomplete practice exercises; descriptions above call out the main known limitations.
