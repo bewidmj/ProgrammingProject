@@ -1,68 +1,14 @@
 # Consolidated Coding Practice Programs
 
-Java practice and interview examples collected from this project and selected neighboring projects.
-All files here are copies; originals remain unchanged. Source-project folder structure is retained.
+Standalone Java practice and interview examples copied from selected neighboring projects.
+The existing ProgrammingProject sources are not duplicated here. Original files in all source
+projects remain untouched; source-project paths are retained for traceability.
 
 Excluded: Finance Flow projects, API/application sources (including StartAPI and e-tour-api),
 and myproject loan-repayment/resume application code.
 
 ## Programs
 
-- [ProgrammingProject/interview/FunctionalInterfaceType.java](./ProgrammingProject/interview/FunctionalInterfaceType.java)
-- [ProgrammingProject/interview/TestInter.java](./ProgrammingProject/interview/TestInter.java)
-- [ProgrammingProject/interview2/LinkedListProgram.java](./ProgrammingProject/interview2/LinkedListProgram.java)
-- [ProgrammingProject/interview2/MaxProfit.java](./ProgrammingProject/interview2/MaxProfit.java)
-- [ProgrammingProject/interview2/Sample3.java](./ProgrammingProject/interview2/Sample3.java)
-- [ProgrammingProject/interview2/Singleton.java](./ProgrammingProject/interview2/Singleton.java)
-- [ProgrammingProject/interview2/TestSample.java](./ProgrammingProject/interview2/TestSample.java)
-- [ProgrammingProject/interview2/ValidParan.java](./ProgrammingProject/interview2/ValidParan.java)
-- [ProgrammingProject/interview3/Test2.java](./ProgrammingProject/interview3/Test2.java)
-- [ProgrammingProject/interview5/DeadLock.java](./ProgrammingProject/interview5/DeadLock.java)
-- [ProgrammingProject/interview5/OddEvenThreads.java](./ProgrammingProject/interview5/OddEvenThreads.java)
-- [ProgrammingProject/interview5/ProducerConsumer.java](./ProgrammingProject/interview5/ProducerConsumer.java)
-- [ProgrammingProject/interview5/ThreadsPractice.java](./ProgrammingProject/interview5/ThreadsPractice.java)
-- [ProgrammingProject/new_prep/EvenOdd.java](./ProgrammingProject/new_prep/EvenOdd.java)
-- [ProgrammingProject/new_prep/FirstNonRepCh.java](./ProgrammingProject/new_prep/FirstNonRepCh.java)
-- [ProgrammingProject/new_prep/LongestSequence.java](./ProgrammingProject/new_prep/LongestSequence.java)
-- [ProgrammingProject/new_prep/LongestSubStr.java](./ProgrammingProject/new_prep/LongestSubStr.java)
-- [ProgrammingProject/new_prep/LongestUniqueSubstring.java](./ProgrammingProject/new_prep/LongestUniqueSubstring.java)
-- [ProgrammingProject/new_prep/MaxProfit.java](./ProgrammingProject/new_prep/MaxProfit.java)
-- [ProgrammingProject/new_prep/MaxSumSlidingWin.java](./ProgrammingProject/new_prep/MaxSumSlidingWin.java)
-- [ProgrammingProject/new_prep/TwoSum.java](./ProgrammingProject/new_prep/TwoSum.java)
-- [ProgrammingProject/new_prep/TwoSum2.java](./ProgrammingProject/new_prep/TwoSum2.java)
-- [ProgrammingProject/new_prep/ValidParanthesis.java](./ProgrammingProject/new_prep/ValidParanthesis.java)
-- [ProgrammingProject/prep/ATM.java](./ProgrammingProject/prep/ATM.java)
-- [ProgrammingProject/prep/CoinSystem.java](./ProgrammingProject/prep/CoinSystem.java)
-- [ProgrammingProject/prep/Test.java](./ProgrammingProject/prep/Test.java)
-- [ProgrammingProject/prep/Test2.java](./ProgrammingProject/prep/Test2.java)
-- [ProgrammingProject/programming/CountNonRepChars.java](./ProgrammingProject/programming/CountNonRepChars.java)
-- [ProgrammingProject/programming/EmpProg1.java](./ProgrammingProject/programming/EmpProg1.java)
-- [ProgrammingProject/programming/Employee.java](./ProgrammingProject/programming/Employee.java)
-- [ProgrammingProject/programming/Factorial.java](./ProgrammingProject/programming/Factorial.java)
-- [ProgrammingProject/programming/FactorialCalculator.java](./ProgrammingProject/programming/FactorialCalculator.java)
-- [ProgrammingProject/programming/FirstNonRepeatingChar.java](./ProgrammingProject/programming/FirstNonRepeatingChar.java)
-- [ProgrammingProject/programming/LongestSubstring.java](./ProgrammingProject/programming/LongestSubstring.java)
-- [ProgrammingProject/programming/MatchTarget.java](./ProgrammingProject/programming/MatchTarget.java)
-- [ProgrammingProject/programming/MaxDiff.java](./ProgrammingProject/programming/MaxDiff.java)
-- [ProgrammingProject/programming/MaxDiff2.java](./ProgrammingProject/programming/MaxDiff2.java)
-- [ProgrammingProject/programming/OddEven.java](./ProgrammingProject/programming/OddEven.java)
-- [ProgrammingProject/programming/PrintSubstrings.java](./ProgrammingProject/programming/PrintSubstrings.java)
-- [ProgrammingProject/programming/PrintSubstrings2.java](./ProgrammingProject/programming/PrintSubstrings2.java)
-- [ProgrammingProject/programming/SimpleInterestCalculator.java](./ProgrammingProject/programming/SimpleInterestCalculator.java)
-- [ProgrammingProject/programming/SortedMapExample.java](./ProgrammingProject/programming/SortedMapExample.java)
-- [ProgrammingProject/test/FirstNonRepChar.java](./ProgrammingProject/test/FirstNonRepChar.java)
-- [ProgrammingProject/test/LinkedListRevesrsePrac.java](./ProgrammingProject/test/LinkedListRevesrsePrac.java)
-- [ProgrammingProject/test/LongestSubPractice.java](./ProgrammingProject/test/LongestSubPractice.java)
-- [ProgrammingProject/test/LongestSubPractice2.java](./ProgrammingProject/test/LongestSubPractice2.java)
-- [ProgrammingProject/test/LongestSubstribngWithoutRep.java](./ProgrammingProject/test/LongestSubstribngWithoutRep.java)
-- [ProgrammingProject/test/NextGreaterElement.java](./ProgrammingProject/test/NextGreaterElement.java)
-- [ProgrammingProject/test/Node.java](./ProgrammingProject/test/Node.java)
-- [ProgrammingProject/test/Problem.java](./ProgrammingProject/test/Problem.java)
-- [ProgrammingProject/test/ProducerConsumer.java](./ProgrammingProject/test/ProducerConsumer.java)
-- [ProgrammingProject/test/ReverseLinkedList.java](./ProgrammingProject/test/ReverseLinkedList.java)
-- [ProgrammingProject/test/TestThread.java](./ProgrammingProject/test/TestThread.java)
-- [ProgrammingProject/test/ValidParanthesys.java](./ProgrammingProject/test/ValidParanthesys.java)
-- [ProgrammingProject/test/factRecursive.java](./ProgrammingProject/test/factRecursive.java)
 - [myproject/src/main/java/com/mayank/myproject/Fibonacci.java](./myproject/src/main/java/com/mayank/myproject/Fibonacci.java)
 - [myproject/src/main/java/com/mayank/myproject/FibonacciRecursion.java](./myproject/src/main/java/com/mayank/myproject/FibonacciRecursion.java)
 - [myproject/src/main/java/com/mayank/myproject/TreeValidator.java](./myproject/src/main/java/com/mayank/myproject/TreeValidator.java)
