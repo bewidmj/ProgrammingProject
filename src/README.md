@@ -1,100 +1,91 @@
-# Java Practice Programs Workspace
+# Original Java Programs
 
-This workspace contains Java practice, prep, and interview programs organized by topic and folder. Each file below is linked directly so you can open any program quickly.
+The original programs are organized by functionality here, separately from the curated
+collection in [`coding-practice/`](../coding-practice/).
 
-## Overview
+## Algorithms
 
-- [programming/](./programming)
-- [test/](./test)
-- [new_prep/](./new_prep)
-- [interview2/](./interview2)
-- [interview5/](./interview5)
-- [prep/](./prep)
-- [interview/](./interview)
-- [interview3/](./interview3)
+- [LongestSequence.java](./algorithms/LongestSequence.java)
+- [MatchTarget.java](./algorithms/MatchTarget.java)
+- [MaxDiff.java](./algorithms/MaxDiff.java)
+- [MaxDiff2.java](./algorithms/MaxDiff2.java)
+- [MaxSumSlidingWin.java](./algorithms/MaxSumSlidingWin.java)
+- [NextGreaterElement.java](./algorithms/NextGreaterElement.java)
+- [OddEven.java](./algorithms/OddEven.java)
+- [MoveZerosToFront.java](./algorithms/MoveZerosToFront.java)
+- [TwoSum.java](./algorithms/TwoSum.java)
+- [TwoSum2.java](./algorithms/TwoSum2.java)
+- [TwoSumPractice.java](./algorithms/TwoSumPractice.java)
 
-## programming/
+## Strings
 
-- [CountNonRepChars.java](./programming/CountNonRepChars.java) — Count non-repeating characters in a string
-- [EmpProg1.java](./programming/EmpProg1.java) — Basic employee-related Java example
-- [Employee.java](./programming/Employee.java) — Employee model/class definition
-- [Factorial.java](./programming/Factorial.java) — Factorial calculation
-- [FactorialCalculator.java](./programming/FactorialCalculator.java) — Factorial calculator program
-- [FirstNonRepeatingChar.java](./programming/FirstNonRepeatingChar.java) — Find the first non-repeating character
-- [LongestSubstring.java](./programming/LongestSubstring.java) — Longest substring problem
-- [MatchTarget.java](./programming/MatchTarget.java) — String/target matching exercise
-- [MaxDiff.java](./programming/MaxDiff.java) — Maximum difference problem
-- [MaxDiff2.java](./programming/MaxDiff2.java) — Alternate maximum difference solution
-- [OddEven.java](./programming/OddEven.java) — Odd/even program
-- [PrintSubstrings.java](./programming/PrintSubstrings.java) — Print all substrings
-- [PrintSubstrings2.java](./programming/PrintSubstrings2.java) — Alternate substring printing version
-- [SimpleInterestCalculator.java](./programming/SimpleInterestCalculator.java) — Simple interest calculation
-- [SortedMapExample.java](./programming/SortedMapExample.java) — SortedMap example program
+- [CountNonRepChars.java](./strings/CountNonRepChars.java)
+- [FirstNonRepCh.java](./strings/FirstNonRepCh.java)
+- [FirstNonRepChar.java](./strings/FirstNonRepChar.java)
+- [FirstNonRepeatingChar.java](./strings/FirstNonRepeatingChar.java)
+- [LongestSubPractice.java](./strings/LongestSubPractice.java)
+- [LongestSubPractice2.java](./strings/LongestSubPractice2.java)
+- [LongestSubStr.java](./strings/LongestSubStr.java)
+- [LongestSubstribngWithoutRep.java](./strings/LongestSubstribngWithoutRep.java)
+- [LongestSubstring.java](./strings/LongestSubstring.java)
+- [LongestUniqueSubstring.java](./strings/LongestUniqueSubstring.java)
+- [PrintSubstrings.java](./strings/PrintSubstrings.java)
+- [PrintSubstrings2.java](./strings/PrintSubstrings2.java)
+- [ValidParan.java](./strings/ValidParan.java)
+- [ValidParanthesis.java](./strings/ValidParanthesis.java)
+- [ValidParanthesys.java](./strings/ValidParanthesys.java)
 
-## test/
+## Data structures
 
-- [EvenODD.java](./test/EvenODD.java) — Even/odd logic exercise using threads or basic number checking
-- [FirstNonRepChar.java](./test/FirstNonRepChar.java) — First non-repeating character practice
-- [LinkedListRevesrsePrac.java](./test/LinkedListRevesrsePrac.java) — Linked list reverse practice
-- [LongestSubPractice.java](./test/LongestSubPractice.java) — Longest substring practice
-- [LongestSubPractice2.java](./test/LongestSubPractice2.java) — Additional longest substring practice
-- [LongestSubstribngWithoutRep.java](./test/LongestSubstribngWithoutRep.java) — Longest substring without repeating characters
-- [NextGreaterElement.java](./test/NextGreaterElement.java) — Next greater element problem
-- [Node.java](./test/Node.java) — Linked list node helper class
-- [Problem.java](./test/Problem.java) — General problem-solving utility/example
-- [ProducerConsumer.java](./test/ProducerConsumer.java) — Producer-consumer thread example
-- [ReverseLinkedList.java](./test/ReverseLinkedList.java) — Reverse linked list implementation
-- [TestThread.java](./test/TestThread.java) — Threading practice example
-- [ValidParanthesys.java](./test/ValidParanthesys.java) — Valid parentheses checking
-- [factRecursive.java](./test/factRecursive.java) — Recursive factorial program
+- [LinkedListProgram.java](./data_structures/LinkedListProgram.java)
+- [LinkedListRevesrsePrac.java](./data_structures/LinkedListRevesrsePrac.java)
+- [Node.java](./data_structures/Node.java)
+- [ReverseLinkedList.java](./data_structures/ReverseLinkedList.java)
 
-## new_prep/
+## Collections
 
-- [EvenOdd.java](./new_prep/EvenOdd.java) — Multi-threaded even/odd example
-- [FirstNonRepCh.java](./new_prep/FirstNonRepCh.java) — First non-repeating character exercise
-- [LongestSequence.java](./new_prep/LongestSequence.java) — Longest sequence problem
-- [LongestSubStr.java](./new_prep/LongestSubStr.java) — Longest substring exercise
-- [LongestUniqueSubstring.java](./new_prep/LongestUniqueSubstring.java) — Longest unique substring problem
-- [MaxProfit.java](./new_prep/MaxProfit.java) — Maximum profit stock problem
-- [MaxSumSlidingWin.java](./new_prep/MaxSumSlidingWin.java) — Maximum sum sliding window problem
-- [TwoSum.java](./new_prep/TwoSum.java) — Two-sum algorithm problem
-- [TwoSum2.java](./new_prep/TwoSum2.java) — Alternate two-sum solution
-- [ValidParanthesis.java](./new_prep/ValidParanthesis.java) — Valid parentheses validation
+- [Employee.java](./collections/Employee.java)
+- [EmpProg1.java](./collections/EmpProg1.java)
+- [SortedMapExample.java](./collections/SortedMapExample.java)
 
-## interview2/
+## Concurrency
 
-- [LinkedListProgram.java](./interview2/LinkedListProgram.java) — Linked list problem implementation
-- [MaxProfit.java](./interview2/MaxProfit.java) — Maximum profit interview question
-- [Sample3.java](./interview2/Sample3.java) — Sample interview exercise
-- [Singleton.java](./interview2/Singleton.java) — Singleton design pattern example
-- [TestSample.java](./interview2/TestSample.java) — Threading / sample interview program
-- [ValidParan.java](./interview2/ValidParan.java) — Valid parenthesis interview problem
+- [DeadLock.java](./concurrency/DeadLock.java)
+- [EvenOdd.java](./concurrency/EvenOdd.java)
+- [OddEvenThreads.java](./concurrency/OddEvenThreads.java)
+- [ProducerConsumer.java](./concurrency/ProducerConsumer.java)
+- [ProducerConsumerMonitorDemo.java](./concurrency/ProducerConsumerMonitorDemo.java)
+- [ThreadMonitorWaitDemo.java](./concurrency/ThreadMonitorWaitDemo.java)
+- [OddEvenPrinterDemo.java](./concurrency/OddEvenPrinterDemo.java)
+- [ThreadsPractice.java](./concurrency/ThreadsPractice.java)
 
-## interview5/
+## Finance
 
-- [DeadLock.java](./interview5/DeadLock.java) — Deadlock demonstration
-- [OddEvenThreads.java](./interview5/OddEvenThreads.java) — Odd/even thread synchronization example
-- [ProducerConsumer.java](./interview5/ProducerConsumer.java) — Producer-consumer threading example
-- [ThreadsPractice.java](./interview5/ThreadsPractice.java) — Java threading practice
+- [ATM.java](./finance/ATM.java)
+- [CoinSystem.java](./finance/CoinSystem.java)
+- [InterviewMaxProfit.java](./finance/InterviewMaxProfit.java)
+- [MaxProfit.java](./finance/MaxProfit.java)
+- [SimpleInterestCalculator.java](./finance/SimpleInterestCalculator.java)
 
-## prep/
+## Java basics
 
-- [ATM.java](./prep/ATM.java) — ATM simulation program
-- [CoinSystem.java](./prep/CoinSystem.java) — Coin system / change-making problem
-- [Test.java](./prep/Test.java) — General Java test file
-- [Test2.java](./prep/Test2.java) — Additional Java test file
+- [Factorial.java](./java_basics/Factorial.java)
+- [FactorialCalculator.java](./java_basics/FactorialCalculator.java)
+- [factRecursive.java](./java_basics/factRecursive.java)
 
-## interview/
+## Design patterns
 
-- [FunctionalInterfaceType.java](./interview/FunctionalInterfaceType.java) — Functional interface example
-- [TestInter.java](./interview/TestInter.java) — Java interview practice file
+- [Singleton.java](./design_patterns/Singleton.java)
 
-## interview3/
+## Functional programming
 
-- [Test2.java](./interview3/Test2.java) — Basic interview practice file
+- [FunctionalInterfaceType.java](./functional/FunctionalInterfaceType.java)
+- [FunctionalProgrammingInterviewNotes.java](./functional/FunctionalProgrammingInterviewNotes.java)
 
-## Quick Tips
+## Notes and placeholders
 
-- Open any file in VS Code to read the full source code.
-- Most programs are standalone Java classes, so they can be run as individual files with a Java compiler or IDE.
-- Use this index as a map for quick navigation across all practice and interview examples in the workspace.
+- [TradeHashingNotes.java](./database/TradeHashingNotes.java) — Trade/hash-map and SQL notes; this file is not valid Java source.
+- [FirstNonRepChar.java](./strings/FirstNonRepChar.java) — Has an unfinished `Long.` expression.
+- [LinkedListRevesrsePrac.java](./data_structures/LinkedListRevesrsePrac.java) — Has a stray `6` in the method body; its reversal logic also needs review.
+- [LinkedListProgram.java](./data_structures/LinkedListProgram.java) — Uses `node1` before it is declared.
+- [SimpleInterestCalculator.java](./finance/SimpleInterestCalculator.java) — Calls a missing `calculateTotalAmount` method.

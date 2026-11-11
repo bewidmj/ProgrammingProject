@@ -1,42 +1,54 @@
-# Consolidated Coding Practice Programs
+# Coding Practice Collection
 
-Standalone Java practice and interview examples copied from selected neighboring projects.
-The existing ProgrammingProject sources are not duplicated here. Original files in all source
-projects remain untouched; source-project paths are retained for traceability.
+Java exercises are grouped in one-level folders by functionality. Source files from the
+previous project directories are consolidated here.
 
-Excluded: Finance Flow projects, API/application sources (including StartAPI and e-tour-api),
-and myproject loan-repayment/resume application code.
+## Java practice exercises
 
-## Programs
+### Algorithms
 
-- [myproject/src/main/java/com/mayank/myproject/Fibonacci.java](./myproject/src/main/java/com/mayank/myproject/Fibonacci.java)
-- [myproject/src/main/java/com/mayank/myproject/FibonacciRecursion.java](./myproject/src/main/java/com/mayank/myproject/FibonacciRecursion.java)
-- [myproject/src/main/java/com/mayank/myproject/TreeValidator.java](./myproject/src/main/java/com/mayank/myproject/TreeValidator.java)
-- [myproject/src/main/java/com/mayank/myproject/newbeginning/SinglyLinkedList.java](./myproject/src/main/java/com/mayank/myproject/newbeginning/SinglyLinkedList.java)
-- [myproject/src/main/java/com/mayank/myproject/programming/MaxDiff.java](./myproject/src/main/java/com/mayank/myproject/programming/MaxDiff.java)
-- [myproject/src/main/java/com/mayank/myproject/programs/BinarySearch.java](./myproject/src/main/java/com/mayank/myproject/programs/BinarySearch.java)
-- [myproject/src/main/java/com/mayank/myproject/programs/CountNonRepeatingChars.java](./myproject/src/main/java/com/mayank/myproject/programs/CountNonRepeatingChars.java)
-- [myproject/src/main/java/com/mayank/myproject/programs/MaximumDifference.java](./myproject/src/main/java/com/mayank/myproject/programs/MaximumDifference.java)
-- [myproject/src/main/java/com/mayank/myproject/programs/ProducerConsumerProblem.java](./myproject/src/main/java/com/mayank/myproject/programs/ProducerConsumerProblem.java)
-- [myproject/src/main/java/com/mayank/myproject/programs/Solution.java](./myproject/src/main/java/com/mayank/myproject/programs/Solution.java)
-- [myproject/src/main/java/com/mayank/myproject/programs/SortByMapValue.java](./myproject/src/main/java/com/mayank/myproject/programs/SortByMapValue.java)
-- [myproject/src/main/java/com/mayank/myproject/programs/ValidPalindrome.java](./myproject/src/main/java/com/mayank/myproject/programs/ValidPalindrome.java)
-- [myproject/src/main/java/com/mayank/myproject/programs/model/Employee.java](./myproject/src/main/java/com/mayank/myproject/programs/model/Employee.java)
-- [myproject/src/main/java/com/mayank/myproject/programs/model/Item.java](./myproject/src/main/java/com/mayank/myproject/programs/model/Item.java)
-- [myproject/src/main/java/com/mayank/myproject/programs1/Employee.java](./myproject/src/main/java/com/mayank/myproject/programs1/Employee.java)
-- [myproject/src/main/java/com/mayank/myproject/programs1/ThreadsProgram.java](./myproject/src/main/java/com/mayank/myproject/programs1/ThreadsProgram.java)
-- [myproject/src/main/java/com/mayank/myproject/programs1/something.java](./myproject/src/main/java/com/mayank/myproject/programs1/something.java)
-- [myproject/src/main/java/com/mayank/myproject/programs2/program.java](./myproject/src/main/java/com/mayank/myproject/programs2/program.java)
-- [myproject/src/main/java/com/mayank/myproject/test/LearnStatic.java](./myproject/src/main/java/com/mayank/myproject/test/LearnStatic.java)
-- [myproject/src/main/java/com/mayank/myproject/test/RandomPrograms.java](./myproject/src/main/java/com/mayank/myproject/test/RandomPrograms.java)
-- [myproject/src/main/java/com/mayank/myproject/test/Sorting.java](./myproject/src/main/java/com/mayank/myproject/test/Sorting.java)
-- [myproject/src/main/java/com/mayank/myproject/test/Test.java](./myproject/src/main/java/com/mayank/myproject/test/Test.java)
-- [myproject/src/main/java/com/mayank/myproject/test/program2.java](./myproject/src/main/java/com/mayank/myproject/test/program2.java)
-- [myproject/src/main/java/com/mayank/myproject/test/testing.java](./myproject/src/main/java/com/mayank/myproject/test/testing.java)
-- [test/src/Testing.java](./test/src/Testing.java)
-- [test/src/TreeValidator.java](./test/src/TreeValidator.java)
-- [test/src/TreeValidatorAnother.java](./test/src/TreeValidatorAnother.java)
-- [test/src/tes.java](./test/src/tes.java)
-- [untitled/src/Employee.java](./untitled/src/Employee.java)
-- [untitled/src/EmployeeSalaryComparator.java](./untitled/src/EmployeeSalaryComparator.java)
-- [untitled/src/HashMapTest.java](./untitled/src/HashMapTest.java)
+- [Fibonacci.java](./java-practice-exercises/algorithms/Fibonacci.java) — Generate Fibonacci numbers iteratively.
+- [FibonacciRecursion.java](./java-practice-exercises/algorithms/FibonacciRecursion.java) — Generate Fibonacci numbers recursively.
+- [MaxDiff.java](./java-practice-exercises/algorithms/MaxDiff.java) — Find a maximum difference in an array.
+- [BinarySearch.java](./java-practice-exercises/algorithms/BinarySearch.java) — Search a sorted array with binary search.
+- [MaximumDifference.java](./java-practice-exercises/algorithms/MaximumDifference.java) — Maximum-difference array exercise.
+- [RecursiveSummationDemo.java](./java-practice-exercises/algorithms/RecursiveSummationDemo.java) — Recursive summation exercise.
+
+### Data structures and tree validation
+
+- [SinglyLinkedList.java](./java-practice-exercises/data_structures/SinglyLinkedList.java) — Insert, remove, and traverse a singly linked list.
+- [Solution.java](./java-practice-exercises/data_structures/Solution.java) — Add two numbers represented by linked lists.
+- [TreeValidator.java](./java-practice-exercises/tree_validation/TreeValidator.java) — Validate parent-child pairs as a binary tree.
+- [TreeValidatorSimple.java](./java-practice-exercises/tree_validation/TreeValidatorSimple.java) — Validate parent-child pairs using root and child-count checks.
+- [TreeValidatorAnother.java](./java-practice-exercises/tree_validation/TreeValidatorAnother.java) — Validate a tree using depth-first traversal.
+
+### Strings
+
+- [CountNonRepeatingChars.java](./java-practice-exercises/strings/CountNonRepeatingChars.java) — Count characters that occur once.
+- [ValidPalindrome.java](./java-practice-exercises/strings/ValidPalindrome.java) — Check whether a string is a palindrome.
+- [CaseInsensitiveWordFrequencyCounter.java](./java-practice-exercises/strings/CaseInsensitiveWordFrequencyCounter.java) — Count words without regard to case.
+
+### Collections
+
+- [Employee.java](./java-practice-exercises/collections/Employee.java) — Employee model used by the examples.
+- [ComparableEmployee.java](./java-practice-exercises/collections/ComparableEmployee.java) — Employee record ordered by ID.
+- [AddressEmployee.java](./java-practice-exercises/collections/AddressEmployee.java) — Employee data class with address information.
+- [SortByMapValue.java](./java-practice-exercises/collections/SortByMapValue.java) — Sort map entries by value.
+- [Sorting.java](./java-practice-exercises/collections/Sorting.java) — Sort employee records by salary.
+- [EmployeeSalaryAndNameSortingDemo.java](./java-practice-exercises/collections/EmployeeSalaryAndNameSortingDemo.java) — Sort employee records by salary and name.
+- [EmployeeSalaryComparator.java](./java-practice-exercises/collections/EmployeeSalaryComparator.java) — Commented-out salary comparator example.
+- [StudentFilteringAndGroupingDemo.java](./java-practice-exercises/collections/StudentFilteringAndGroupingDemo.java) — Filter, sort, and group student records with streams.
+- [CandyExchangeAndEmployeeSortingDemo.java](./java-practice-exercises/collections/CandyExchangeAndEmployeeSortingDemo.java) — Candy-counting and employee-set exercise.
+- [MapValueSortingAndStringSlicingDemo.java](./java-practice-exercises/collections/MapValueSortingAndStringSlicingDemo.java) — Map sorting and string slicing examples.
+
+### Concurrency
+
+- [ProducerConsumerProblem.java](./java-practice-exercises/concurrency/ProducerConsumerProblem.java) — Demonstrate producer-consumer coordination with a blocking queue.
+- [Item.java](./java-practice-exercises/concurrency/Item.java) — Item model used by the producer-consumer example.
+- [ThreadsProgram.java](./java-practice-exercises/concurrency/ThreadsProgram.java) — Basic Java thread exercise (currently commented out).
+
+### Java basics and design
+
+- [LearnStatic.java](./java-practice-exercises/java_basics/LearnStatic.java) — Explore Java static members.
+- [HelloWorldDemo.java](./java-practice-exercises/java_basics/HelloWorldDemo.java) — Basic Java entry-point example.
+- [VendingMachineDemo.java](./java-practice-exercises/vending_machine/VendingMachineDemo.java) — Vending-machine design exercise.
